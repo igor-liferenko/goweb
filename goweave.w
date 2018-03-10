@@ -2132,7 +2132,7 @@ const (
 )
 
 @* Implementing the productions.
-Parsing of \GO/ code in \.{GOWEAVE} is different from one in {CWEAVE}.
+Parsing of \GO/ code in \.{GOWEAVE} is different from one in \.{CWEAVE}.
 A scrap sequence to be reduced is been looking at the current position in the |scrap_info|
 recursively, but a reducing has to be proceeded if and only if a full sequence is found. 
 Each search of the scrap sequence may initiate other search of a nested scrap sequence and so on.
@@ -5836,7 +5836,7 @@ We have assembled enough pieces of the puzzle in order to be ready to specify
 the processing in \.{GOWEAVE}'s main pass over the source file. Phase two
 is analogous to phase one, except that more work is involved because we must
 actually output the \TEX/ material instead of merely looking at the
-\.{CWEB} specifications.
+\.{GOWEB} specifications.
 
 @c
 func phase_two() {
